@@ -1,6 +1,6 @@
 require 'rails_helper'
 
- "artists", type:  :feature do
+describe "artists", type:  :feature do
   before do
     Artist.destroy_all
     Song.destroy_all
